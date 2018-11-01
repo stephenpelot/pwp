@@ -21,8 +21,8 @@
 			<h2>Contact form/Links</h2>
 			<p>This is the call to action, once they've seen my site. It will have links to my Github repositories, my LinkedIn profile, and my StackOverflow account. The contact form will be a simple email relayer</p>
 		</div>
-		<img src="Wireframe%20for%20PWP.png">
-		<img src="Wireframe%20for%20PWP%20mobile.png"
+		<img src="Wireframe-for-PWP.png">
+		<img src="Wireframe-for%20PWP-mobile.png">
 	</head>
 	/*function over form
 	<br>
