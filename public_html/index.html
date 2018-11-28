@@ -8,6 +8,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
+//recapcha for google service
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <title>Stephen Pelot's Kingdom</title>
 
 </head>
@@ -115,29 +117,6 @@
 
 </div>
 
-<form id="form" role="form" action="php/mailer.php" method="post" novalidate="novalidate">
-					<br>
-					<h3 class="text-center">Contact Form</h3>
-					<br>
-					<div class="form-group">
-						<input type="text" class="form-control" id="name" name="name" placeholder="Name" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
-					</div>
-					<br>
-					<div class="form-group">
-						<input type="text" class="form-control" id="email" name="email" placeholder="Email" required="">
-					</div>
-					<br>
-					<div class="form-group">
-						<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required="">
-					</div>
-					<br>
-					<div class="form-group">
-						<textarea class="form-control" type="textarea" id="message" name="message" placeholder="Leave me a message please" maxlength="280" rows="7"></textarea>
-					</div>
-					<br>
-					<button type="submit" id="submit" name="submit" class="btn pull-right">Submit Form</button>
-					<div class="g-recaptcha" data-sitekey="6Lcc03sUAAAAAN9afkbbiTuLbQ__9twFO_RttW88"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lcc03sUAAAAAN9afkbbiTuLbQ__9twFO_RttW88&amp;co=aHR0cHM6Ly9ib290Y2FtcC1jb2RlcnMuY25tLmVkdTo0NDM.&amp;hl=en&amp;v=v1542004393985&amp;size=normal&amp;cb=pi64nk8rtles" width="304" height="78" role="presentation" name="a-dli09zsk9m1t" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div></div>
-				</form>
 
 
 
